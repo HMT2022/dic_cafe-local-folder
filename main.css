@@ -1,0 +1,11 @@
+# dic_cafe-local-folder
+@charset"utf-8";
+.section_inner{
+    padding: 50px 10% 30px;
+}
+article>div{
+    padding: 20px;
+    background-image: url("sample_key.jpg");
+    background-color: green;
+   
+}
