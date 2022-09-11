@@ -3,6 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>DIC Cafe</title>
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     </head>
     <body>
         <header id="#top">
@@ -14,25 +17,31 @@
                 <a href="contact.html"><li>Contact</li></a>
             </ul>
         </nav>
+        <div class="key section_inner">
         <h1>DIC COffee</h1>
         <p>natural organic coffee</p>
-        </header>
+        </div>
+    </header>
         <section>
-            <article>
+            <article class="section_inner">
+            <div class="section_title">
             <h1>CONCEPT</h1>
             <p>DIC Coffeeのこだわり</p>
-            <p>
+            </div>
+            <div>
                 DIC Coffee のコーヒーはルワンダコーヒー豆<strong>「DIC Beans」</strong>を利用しています。
                 直接契約したコーヒー農家から仕入ております。<br>
                 バランスの取れた酸味とコクに､フルーティな甘さを感じられる1枚です。ぜひ、こだわりの1枚をお楽しみください。<br>
                 <small>*DIC Cafeは株式会社DIVE INTO CODEが農場と契約、運営しています。</small>
-            </p>
-            <img src="images/sample_concept.jpg">
+            </div>
             </article>
-            <article>
-            <h1>MENU</h1>
+            <img src="images/sample_concept.jpg">
+            <article class="section_inner">
+            <h1 class="section_title">MENU</h1>
             <section>
-                <h2>Recommended menu</h2>
+                <div class="center">
+                <h2 class="menu_title">Recommended menu</h2>
+                </div>
                 <ul>
                     <li>ブルーベリーパンケーキ</li>
                     <p>フレッシュなブルーベリーをトッピングしたパンケーキです。</p>
@@ -45,7 +54,9 @@
                 </ul>
             </section>
             <section>
-                <h1>Coffee Menu</h1>
+                <div class="center">
+                <h1 class="menu_title">Coffee Menu</h1>
+                </div>
                 <ul>
                     <li>
                          <h2>ブランドコーヒー</h2>
@@ -70,9 +81,11 @@
                 </ul>
                 </section>
             </article>
-            <article>
+            <article class="section_inner">
+                <div class="section_title">
                 <h1>ACCESS</h1>
                 <p>店舗情報</p>
+                </div>
                 <dl>
                     <dt>営業時間</dt>
                     <dd>10:00-19:00<br>木曜日定休</dd>
@@ -96,5 +109,7 @@
             <a href="#top">Topに戻る</a>
         </footer>
         <a href="index.html"><img src="images/sample_logo_w.png"></a>
+        <span>&copy; DIVE INTO CODE Corp. ALL RIGHTS RESVERD.</span>
     </body>
+
 </html>
