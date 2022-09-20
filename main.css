@@ -30,3 +30,38 @@
 .center{
     text-align: center;
 }
+.coffee_menu_image{
+    width: 20%;
+    border-radius: 50%;
+}
+.header_nav{
+    background: rgba(0,0,0,.6);
+    display: flex;
+}
+.global_nav_item{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.global_nav_item:hover{
+    background: #fff;
+    color: #42210b;
+}
+.global_nav{
+    display: flex;
+}
+.logo img{
+    width: 100%;
+}
+.dic{
+    width: 150px;
+    position: absolute;
+   right: 20px;
+}
+.inner{
+    width: 500px;
+    position: relative;
+    background: pink;
+}
